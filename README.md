@@ -1,2 +1,2 @@
-# Prime-or-not-prime
-Recognizes whether the input number is prime or not.
+# Prime and composite numbers
+Recognizes whether the input value is prime or not.
