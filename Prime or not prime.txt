@@ -4,23 +4,18 @@
         Scanner input = new Scanner(System.in);
 
         int entryNumber = input.nextInt();
-        boolean fact = false;
-
-        if (entryNumber <= 1) {
-
-            System.out.println("The entry number isn't prime !!!");
-        } else {
+        boolean prime = false;
+  
             for (int i = 2; i <= entryNumber; i++) {
 
                 if (entryNumber % i == 0) {
 
-                    fact = true;
+                    prime = true;
                     break;
 
-                }
-            }
+                }            
 
-            if (fact) {
+            if (prime) {
 
                 System.out.println(String.format("number (%d) is prime !!!", entryNumber));
 
